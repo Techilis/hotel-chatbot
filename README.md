@@ -1,6 +1,7 @@
 # hotel-chatbot
 
 # Pre-processing
+## Pre-processing scripts are for reference and do not need to be ran
  - A_Scrape booking.com.ipynb – Scrapes hotel review data from Booking.com.
  - B_Data Preprocessing.ipynb – Cleans and structures the scraped review data for further analysis.
  - B2_EDA.ipynb – Exploratory Data Analysis (EDA) of the processed reviews to identify key patterns.
@@ -9,6 +10,7 @@
  - C_Weaviate.ipynb – Uploads processed review data to Weaviate for semantic search and retrieval.
 
 # Main script and Evaluation
+## Running either the chat_main_code.py or 'Chatbot Main Code.ipynb' will have the Gradio UI appear
  - chatbot_main_code.py – Backend Python script for a chatbot that interacts with the Weaviate database to provide hotel insights.
    - Take note that the hugging face token has to be replace with your own before running the script
  - Chatbot Main Code.ipynb - Same script as the above, but in notebook format 
