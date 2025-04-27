@@ -12,6 +12,6 @@
 # Main script and Evaluation
 ## Running either the chat_main_code.py or 'Chatbot Main Code.ipynb' will have the Gradio UI appear
  - chatbot_main_code.py – Backend Python script for a chatbot that interacts with the Weaviate database to provide hotel insights.
-   - Take note that the hugging face token has to be replace with your own before running the script
+   - Take note that the hugging face token has to be replaced with your own before running the script
  - Chatbot Main Code.ipynb - Same script as the above, but in notebook format 
  - evaluation_v2.ipynb – Evaluation scripts for analyzing chatbot performance and sentiment accuracy.
